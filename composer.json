@@ -19,7 +19,12 @@
 			"Yllumi\\Pager\\": "src/"
 		}
 	},
-	"post-package-install": [
-        "php install.php"
-    ]
+	"bin": [
+        "ci4pageroute-install"
+    ],
+    "scripts": {
+        "post-package-install": [
+            "php ci4pageroute-install"
+        ]
+    }
 }
