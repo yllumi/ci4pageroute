@@ -11,8 +11,5 @@ Develop even more rapid with page based route. It is like Nextjs or Nuxtjs for C
   $routes->set404Override('\Yllumi\Pager\Controllers\Page::index');
   $routes->get('/', '\Yllumi\Pager\Controllers\Page::index');
   ```
+- Run `composer run -d vendor/yllumi/ci4pageroute add-sample-page` to place sample pages
 - Happy develop!
-
-## Creating Page
-
-

@@ -2,6 +2,9 @@
 <?php
 
 // Copy and paste sample pages folder to root project
+$source = __DIR__.'/pages/';
+$target = __DIR__.'/../../../pages';
+
 function full_copy( $source, $target ) {
     if ( is_dir( $source ) ) {
         @mkdir( $target );
@@ -23,6 +26,4 @@ function full_copy( $source, $target ) {
         copy( $source, $target );
     }
 }
-$source = __DIR__.'/../yllumi/ci4pageroute/pages/';
-$target = __DIR__.'/../../pages/';
 full_copy( $source, $target );

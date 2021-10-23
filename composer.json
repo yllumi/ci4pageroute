@@ -19,12 +19,9 @@
 			"Yllumi\\Pager\\": "src/"
 		}
 	},
-	"bin": [
-        "ci4pageroute-install"
-    ],
     "scripts": {
-        "post-package-install": [
-            "php ci4pageroute-install"
+        "add-sample-page": [
+            "php add-sample-page"
         ]
     }
 }
