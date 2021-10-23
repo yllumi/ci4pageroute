@@ -1,7 +1,7 @@
 {
 	"name": "yllumi/ci4pageroute",
 	"description": "Page based routing for CodeIgniter 4",
-	"type": "library",
+	"type": "package",
 	"license": "MIT",
 	"authors": [
 		{
