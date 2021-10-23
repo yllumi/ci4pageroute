@@ -18,5 +18,8 @@
 		"psr-4": {
 			"Yllumi\\Pager\\": "src/"
 		}
-	}
+	},
+	"post-package-install": [
+        "php install.php"
+    ],
 }
